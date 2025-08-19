@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(216, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    font-family: "outfit";
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 12px;
+    overflow: hidden;
+    width: 320px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    margin-top: 10%;
+    height: 60vh;
+    line-height: 35px;
+    padding: 25px;
+}
+
+.mainimage img {
+    display: block;
+    width: 100%;
+}
+
+.etherum , .clock {
+    display: flex;
+}
+
+.time-price {
+    display: flex;
+    gap: 42%;
+}
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+h2 {
+   color: hsl(0, 0%, 100%);
+}
+.price {
+    color: hsl(178, 100%, 50%);
+}
+
+.artist img {
+    width: 30%;
+}
+
+.artist {
+    display: flex;
+    align-items: flex-start;
+}
