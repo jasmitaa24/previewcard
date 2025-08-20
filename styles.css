@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    border: 0;
     margin: 0;
 }
 
@@ -17,10 +16,10 @@ body {
     border-radius: 12px;
     overflow: hidden;
     width: 320px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.5);
     margin-top: 10%;
-    height: 60vh;
-    line-height: 35px;
+    height: 64vh;
+    line-height: 30px;
     padding: 25px;
 }
 
@@ -31,14 +30,32 @@ body {
 
 .etherum , .clock {
     display: flex;
+    height: 19px;
+    gap: 8px;
 }
 
+h2{ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.line {
+    padding: 20px;
+
+}
+hr {
+    border: 1.2px solid hsl(215, 32%, 27%);
+}
 .time-price {
     display: flex;
-    gap: 42%;
+    gap: 35%;
 }
 p {
     color: hsl(215, 51%, 70%);
+}
+
+.description {
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -49,10 +66,14 @@ h2 {
 }
 
 .artist img {
-    width: 30%;
+    width: 25%;
+}
+
+span {
+    color: hsl(0, 0%, 100%);
 }
 
 .artist {
     display: flex;
-    align-items: flex-start;
+
 }
