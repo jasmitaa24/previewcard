@@ -2,41 +2,49 @@
 
 * {
     margin: 0;
+    font-family: "outfit" , Inter;
 }
 
 body {
     background-color: hsl(216, 54%, 11%);
     display: flex;
     justify-content: center;
-    font-family: "outfit";
+   
 }
 
 .card {
     background-color: hsl(216, 50%, 16%);
     border-radius: 12px;
     overflow: hidden;
-    width: 320px;
+    width: 311px;
     box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.5);
     margin-top: 10%;
-    height: 64vh;
-    line-height: 30px;
+    height: 65vh;
+    line-height: 28px;
     padding: 25px;
 }
 
 .mainimage img {
     display: block;
     width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.mainimage img:hover {
+    
 }
 
 .etherum , .clock {
     display: flex;
-    height: 19px;
+    height: 25px;
     gap: 8px;
 }
 
 h2{ 
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .line {
@@ -44,7 +52,7 @@ h2{
 
 }
 hr {
-    border: 1.2px solid hsl(215, 32%, 27%);
+    border: 1.3px solid hsl(215, 32%, 27%);
 }
 .time-price {
     display: flex;
@@ -55,25 +63,39 @@ p {
 }
 
 .description {
-    margin-bottom: 10px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 h2 {
    color: hsl(0, 0%, 100%);
+   cursor: pointer;
+}
+h2:hover {
+    color: hsl(178, 100%, 50%);
 }
 .price {
     color: hsl(178, 100%, 50%);
 }
 
 .artist img {
-    width: 25%;
+    width: 60%;
+}
+
+.width {
+    width: 20%;
 }
 
 span {
     color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+span:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 .artist {
     display: flex;
-
+    width: 100%;
 }
