@@ -46,6 +46,7 @@ body {
 
 .mainimage:hover::after {
   opacity: 1;
+  cursor: pointer;
 }
 
 .mainimage:hover .eye {
@@ -88,7 +89,7 @@ hr {
 }
 .time-price {
     display: flex;
-    gap: 35%;
+    justify-content: space-between;
 }
 p {
     color: hsl(215, 51%, 70%);
@@ -130,4 +131,34 @@ span:hover {
 .artist {
     display: flex;
     width: 100%;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .card {
+    width: 80%;
+   
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 834px) {
+  .card {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1440px) {
+  .card {
+    width: 20%;
+  }
 }
